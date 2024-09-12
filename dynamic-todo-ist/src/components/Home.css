@@ -1,0 +1,47 @@
+/* CSS file or styled-components */
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.todo-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.checked {
+    color: green; /* Change color if needed */
+}
+
+.task-text {
+    margin: 0;
+    font-size: 16px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray; /* Change color if needed */
+}
+/* Home.css */
+.task-text.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo-icon.checked {
+    color: green; /* or any color to indicate completion */
+}
